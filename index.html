@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaustav Gupta | Portfolio</title>
+    <link rel="icon" href="assets/myfavicon.png"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Kaustav Gupta</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Kaustav Gupta</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/kaustav_profilePic.png" alt="Kaustav Gupta profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Namaste(); I'm</p>
+        <h1 class="title">Kaustav Gupta</h1>
+        <p class="section__text__p2">Trying to Code</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-kaustav.pdf')"
+          >
+          
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+            <img src="./assets/linkedin.png" 
+            alt="My LinkedIn profile"
+            class="icon" 
+            onclick="window.open('https://www.linkedin.com/in/kaustav-gupta23/', '_blank')"
+            />
+            <img src="./assets/github.png" 
+            alt="My LinkedIn profile"
+            class="icon" 
+            onclick="window.open('https://github.com/kaustavgupta23', '_blank')"
+            />
+            <img src="./assets/twitter.png" 
+            alt="My LinkedIn profile"
+            class="icon" 
+            onclick="window.open('https://x.com/kaustav_gupta23', '_blank')"
+            />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get to Know More</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/kaustav-pic2.jpg"
+                     alt="Profile picture" 
+                     class="about-pic"
+                />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                  <div class="details-container">
+                    <img src="./assets/education.png"
+                    alt="experience icon"
+                    class="icon"
+                    />
+                    <h3>Education</h3>
+                    <p>B.Sc. Computer Science (Hons.) <br> University of Delhi <br> (2022-2025/26) </p>
+                </div>
+                    <div class="details-container">
+                        <img src="./assets/experience.png"
+                        alt="experience icon"
+                        class="icon"
+                        />
+                        <!-- <h3>Experience</h3>
+                        <p>2+ years <br> Frontend Development</p> -->
+                        <h3>Proficiency</h3>
+                        <ul>
+                          <li>Frontend Development</li>
+                          <li>Data Structures</li>
+                          <li>Video Editing</li>
+                        </ul>
+                    </div>  
+                    <!-- <div class="details-container">
+                        <img src="./assets/education.png"
+                        alt="experience icon"
+                        class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>B.Sc. Bachelors of Science <br> (2022-2025/26)</p>
+                    </div> -->
+                </div>
+                <div class="text-container">
+
+                    <p>Hi, I'm Kaustav, a Programmer and aspiring Full Stack Developer from the University of Delhi. I thrive on solving challenges on platforms like<a href="https://leetcode.com/u/kaustav23/" target="_blank"> {LeetCode} </a> and enjoy creating web applications that prioritize user experience.
+                      <br>
+                      
+                      In my development process, I focus on simplicity and thoughtful interactions to ensure a smooth user journey. When I'm not coding, I love playing sports, exploring new music, and cooking to unwind.
+                      <br>
+                        
+                      Let's connect and explore how we can create impactful digital solutions together!</p>
+                  </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" 
+        alt="arrow icon" 
+        class="icon arrow"
+        onclick="location.href='./#skills'">
+    </section>
+
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="skills-details-container">
+          <div class="tech-icons-grid">
+              <article>
+                  <img src="assets/html.png" alt="HTML icon" class="icon1">
+                  <h3>HTML</h3>
+              </article>
+              <article>
+                  <img src="assets/CSS.png" alt="CSS icon" class="icon1">
+                  <h3>CSS</h3>
+              </article>
+              <article>
+                  <img src="assets/JavaScript.png" alt="JavaScript icon" class="icon1">
+                  <h3>JavaScript</h3>
+              </article>
+              <article>
+                  <img src="assets/cpp.png" alt="C++ icon" class="icon1">
+                  <h3>C++</h3>
+              </article>
+              <article>
+                  <img src="assets/python.png" alt="Python icon" class="icon1">
+                  <h3>Python</h3>
+              </article>
+              <article>
+                  <img src="assets/git_hub.png" alt="GitHub icon" class="icon1">
+                  <h3>GitHub</h3>
+              </article>
+              <article>
+                  <img src="assets/canva.png" alt="Canva icon" class="icon1">
+                  <h3>Canva</h3>
+              </article>
+              <article>
+                  <img src="assets/notion.png" 
+                  alt="Notion icon" 
+                  class="icon1">
+                  <h3>Notion</h3>
+              </article>
+          </div>
+      </div>
+      <img
+      src="./assets/arrow.png"
+      alt="arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"/>
+    </section>
+  
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="skills-details-container">
+        <div class="about-containers">
+        <!-- PROJECT 1 -->
+        <div class="details-container color-container">
+          <div class="artile-container">
+            <img 
+                src="./assets/calculator_project1.png" 
+                alt="Project 1" 
+                class="project-img"
+              />
+            <h2 class="skills-sub-title project-title">Calculator</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- PROJECT 2 -->
+        <div class="details-container color-container">
+          <div class="artile-container">
+            <img 
+                src="./assets/todo_project2.png" 
+                alt="Project 1" 
+                class="project-img"
+              />
+            <h2 class="skills-sub-title project-title">Todo List</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- PROJECT 3 -->
+        <div class="details-container color-container">
+          <div class="artile-container">
+            <img 
+                src="./assets/Weather_app.png" 
+                alt="Project 1" 
+                class="project-img"
+              />
+            <h2 class="skills-sub-title project-title">Weather App</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+      <img
+      src="./assets/arrow.png"
+      alt="arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+      />
+    </section>
+
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:kaustavgupta2311@gmail.com">kaustavgupta2311@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+        />
+        <p><a href="https://www.linkedin.com/in/kaustav-gupta23/" target="_blank">LinkedIn</a></p>
+      </div>
+    </div>
+    
+  </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Kaustav Gupta. All Rights Reserved. </p>
+  </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

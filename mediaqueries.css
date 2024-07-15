@@ -1,0 +1,229 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .about-containers {
+      flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+    }
+    #skills,
+    .skills-details-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+    .about-containers {
+      margin-top: 0;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 40vh;
+    }
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .skills-sub-title {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section__pic-container {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+    .section__text__p2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .text-container {
+      text-align: justify;
+    }
+  }
+
+  /* SKILLS */
+
+/* General Styles */
+.skills-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  /* Grid layout for icons */
+  .tech-icons-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns */
+    gap: 30px;
+    padding: 30px;
+    width: 90%; /* Make the grid fill 90% of the screen */
+  }
+  
+  .tech-icons-grid article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon1 {
+    height: 130px; /* Increase size as needed */
+    width: auto;
+  }
+  
+  .tech-icons-grid h3 {
+    margin-top: 20px;
+    font-size: 2rem; /* Adjust size as needed */
+    text-align: center;
+  }
+  
+  .arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+  }
+  
+  #skills {
+    position: relative;
+  }
+  
+  .skills-sub-title {
+    color: rgb(85,85,85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Media Queries */
+  
+  /* Tablets in portrait mode and large phones in landscape mode */
+  @media (max-width: 1024px) {
+    .tech-icons-grid {
+      grid-template-columns: repeat(3, 1fr); /* Three columns */
+      gap: 20px;
+      padding: 20px;
+      width: 90%;
+    }
+  
+    .icon1 {
+      height: 110px;
+    }
+  
+    .tech-icons-grid h3 {
+      font-size: 1.75rem;
+    }
+  
+    .arrow {
+      right: -4rem;
+      bottom: 2rem;
+    }
+  }
+  
+  /* Tablets and large phones in portrait mode */
+  @media (max-width: 768px) {
+    .tech-icons-grid {
+      grid-template-columns: repeat(2, 1fr); /* Two columns */
+      gap: 20px;
+      padding: 20px;
+      width: 90%;
+    }
+  
+    .icon1 {
+      height: 100px;
+    }
+  
+    .tech-icons-grid h3 {
+      font-size: 1.5rem;
+    }
+  
+    .arrow {
+      right: -3rem;
+      bottom: 1.5rem;
+    }
+  }
+  
+  /* Small phones */
+  @media (max-width: 480px) {
+    .tech-icons-grid {
+      grid-template-columns: 1fr; /* One column */
+      gap: 15px;
+      padding: 15px;
+      width: 90%;
+    }
+  
+    .icon1 {
+      height: 90px;
+    }
+  
+    .tech-icons-grid h3 {
+      font-size: 1.25rem;
+    }
+  
+    .arrow {
+      right: -2rem;
+      bottom: 1rem;
+    }
+  }
+  
