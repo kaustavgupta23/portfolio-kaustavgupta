@@ -17,7 +17,7 @@ I'm passionate about technology and innovation, with a particular interest in al
 
 ## Education
 
-- **B.Sc. (Hons.) Computer Science** - University of Delhi (Expected 2025/26)
+- **B.Sc. (Hons.) Computer Science** - University of Delhi (2025/26)
 
 ## Contact
 
